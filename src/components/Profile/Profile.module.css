@@ -1,0 +1,79 @@
+.profileBlock {
+    width: 55%;
+    height: 60vh;
+    min-height: 380px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+    transform: translate(-50%, -50%);
+    background: rgba(242,243,244, 0.6);
+    border-radius: 20px;
+    align-items: center;
+    padding: 30px;
+}
+
+.profileContainer {
+    display: flex;
+    padding: 40px 60px;
+    position: relative;
+}
+
+.profileImg {
+    width: 240px;
+    height: 240px;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: -1px 4px 28px 0 rgba(0,0,0, 0.6);
+}
+
+.uploadPhoto {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(255,255,255, 0.7);
+    opacity: 0;
+    position: absolute;
+    border-radius: 20px;
+
+    transition: opacity .2s;
+}
+
+.userPhoto {
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.profileImg:hover .uploadPhoto {
+    opacity: .9;
+}
+
+.uploadPhoto span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.profileInfoContent {
+    padding: 15px 0 15px 50px;
+    line-height: 1.5;
+}
+
+.profileInfo {
+    margin-left: 100px;
+}
+
+.profileInfoTitle {
+    font-size: 48px;
+    text-align: center;
+}
+
+.logOutBtn button {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

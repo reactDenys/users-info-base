@@ -1,0 +1,24 @@
+.input {
+    padding: 5px 10px;
+    width: 250px;
+    height: 20px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    margin: 10px 0 5px 0;
+
+}
+
+.input:focus {
+    outline: none;
+}
+
+.field {
+
+}
+
+.errorMessage {
+    color: red;
+    display: flex;
+    line-height: 1;
+    padding-bottom: 5px;
+}
