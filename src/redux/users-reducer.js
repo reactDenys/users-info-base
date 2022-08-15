@@ -10,8 +10,6 @@ const initialState = {
             userId: 1, firstname: 'Denys', lastname: 'Aksonov', email: 'react_developer@gmail.com',
             password: 'iLoveReact', birthDate: '2000-12-28', gender: 'male', ava: ava
         },
-        /*{userId: 3, userName: 'Denys', login: 'react_developer@gmail.com', password: 'iLoveReact'},
-        {userId: 2, userName: 'Denys', login: '123', password: '111'}*/
     ],
     userAuth: false
 }
